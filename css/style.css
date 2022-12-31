@@ -1,0 +1,135 @@
+body {
+    background-color: #121212;
+}
+.header {
+    height: 250px;
+    max-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+.headerImage {
+    background-image: url(images/gradient.png), url(images/hero\ image.png);
+    /* this has header image as well as gradient over top of it. i made this "headerimage" but i think it could be embedded in the above header section but i don't want to mess it up*/
+}
+h1 {
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 84px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+h2 {
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.headerText {
+    /* WHY CAN'T I GET THIS TO BE DIFFERENT */
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    padding-left: 75px;
+    padding-bottom: 100px;
+    padding-right: 500px;
+}
+.headerBox {
+    /* From https://css.glass NOT WORKING!!
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px); */
+    background-color: #121212;
+}
+p {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+a {
+    color: #00853E;
+}
+button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FDFDFC;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    /* need this button to be centered */
+}
+.button:hover {
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+}
+.square {
+    background-color: #202020;
+    border-radius: 5px;
+    margin: 25px 60px 25px; /* top right bottom left OR top right/left bottom */
+    padding: 25px 50px 25px;
+    width: auto;
+    box-shadow: 3px 8px 32px -1px black;
+}
+.squareWbutton {
+    background-color: #202020;
+    border-radius: 5px;
+    margin: 25px 60px 25px; 
+    padding: 25px 50px 25px;
+    width: auto;
+    box-shadow: 3px 8px 32px -1px black;
+}
+.greenButton {
+    /* need to center in its container!! */
+    background-color: #3A844A;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FDFDFC;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 75px 15px;
+}
+.whiteButton {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #202020;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 30px 5px;
+}
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 75px;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.logos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
